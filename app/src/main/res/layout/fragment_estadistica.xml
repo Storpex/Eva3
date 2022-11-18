@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EstadisticaFragment"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/Estadistica"
+        android:textColor="@color/blanco"
+        android:background="@drawable/barra_title"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Contadortemporizador"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/negro"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiempo_total"
+            android:textColor="@color/negro"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/negro"
+            android:text="00"
+            android:textSize="20sp"
+            android:id="@+id/Est_hrs"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/negro"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/negro"
+            android:text="00"
+            android:textSize="20sp"
+            android:id="@+id/Est_min"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/negro"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/negro"
+            android:text="00"
+            android:textSize="20sp"
+            android:id="@+id/Est_seg"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/EstadTempVecesUsados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/veces_usado"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/negro"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Contador_dias"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/negro"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/EstadCalVecesUsados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Veces usado: X"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/negro"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Contador_desbloqueo"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/negro"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/EstadOpenVecesUsados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/veces_usado"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/negro"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Caja fuerte</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Temporizador">Temporizador</string>
+    <string name="Calendario">Calendario</string>
+    <string name="AbrirCaja">Abrir Caja</string>
+    <string name="Estadistica">Estadistica</string>
+    <string name="iniciar">INICIAR</string>
+    <string name="fecha_final">FECHA FINAL:</string>
+    <string name="fecha_inicial">Fecha inicial</string>
+    <string name="fecha_termino">Fecha termino</string>
+    <string name="abrir">ABRIR</string>
+    <string name="introducir">INTRODUCIR: </string>
+    <string name="Contadortemporizador">Contador temporizador</string>
+    <string name="tiempo_total">- Tiempo total: </string>
+    <string name="veces_usado">- Veces usado: X</string>
+    <string name="Contador_dias">Contador dias</string>
+    <string name="Contador_desbloqueo">Contador desbloqueo</string>
+</resources>
